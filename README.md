@@ -14,15 +14,19 @@
 * Django REST Framework
 * SQLite
 
+
 ## Setup
 
 git clone <repo-url>
 cd finance-backend
-python -m venv venv
-source venv/bin/activate
+
+python -m venv financeenv
+source financeenv/bin/activate
+
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
+
 
 ## APIs
 
